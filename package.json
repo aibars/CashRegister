@@ -1,0 +1,25 @@
+{
+  "name": "cash-register",
+  "version": "1.0.0",
+  "description": "A TypeScript application for processing cash register change calculations",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "test": "npm run build && node dist/test.js",
+    "test:dev": "ts-node src/test.ts",
+    "clean": "rm -rf dist"
+  },
+  "keywords": ["cash-register", "change-calculator", "typescript", "nodejs"],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "ts-node": "^10.9.0"
+  }
+}
