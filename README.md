@@ -41,3 +41,23 @@ Here are a couple of thoughts about the domain that could influence your respons
 * What might happen if the client needs to change the random divisor?
 * What might happen if the client needs to add another special case (like the random twist)?
 * What might happen if sales closes a new client in France?
+
+---
+
+## 📁 Implementation
+
+See [`src/README.md`](src/README.md) for the complete enterprise TypeScript implementation with:
+
+- Service layer architecture
+- Environment configuration support
+- Comprehensive testing suite
+- TypeScript type safety
+- Multiple design patterns
+- Command line interface
+
+**Quick Start:**
+```bash
+npm install
+cp .env.sample .env  # Configure environment variables
+npm run start sample-input.txt
+```
